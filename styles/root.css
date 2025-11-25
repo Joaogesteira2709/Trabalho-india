@@ -1,0 +1,11 @@
+:root{
+    font-family: "roboto", sans-serif;
+    font-size: 62.5%;
+
+    --background-principal:oklch(97.3% 0.071 103.193);
+    --header-principal:oklch(55.4% 0.046 257.417);
+    --div-conteudo:#fff;
+    --background-secundario:oklch(92.3% 0.003 48.717);
+    --header-secundario:oklch(14.1% 0.005 285.823);
+    --header-terciario:oklch(44.4% 0.011 73.639)
+}
