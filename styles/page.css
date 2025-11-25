@@ -94,11 +94,14 @@ main{
         img{
         width: 30rem;
         border-radius: 3rem;
-        margin: 3rem;
+        margin-inline: 3rem;
+        margin-top: 4rem;
         }
 
         p{
             max-width: 60rem;
+            text-align: justify;
+            margin-left: 14rem;
         }
     }
 
