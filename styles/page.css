@@ -1,5 +1,4 @@
-#page{
-    max-width: 135rem;
+.page{
     margin-inline: auto;
     scroll-behavior: smooth;
 }
@@ -55,6 +54,7 @@ header{
 
 main{
     background-color: var(--background-principal);
+    min-height: calc(100svh - 11.8rem);
     padding-block: 12rem 4rem;
 }
 
@@ -110,5 +110,29 @@ main{
         align-items: center;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .wb{
+        background-color: #fff;
+        margin-inline: 5rem;
+        border-radius: 3rem;
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+     p{
+            max-width: 40rem;
+            text-align: justify;
+     }
+
+     .cultura{
+        margin-block: 4rem;
+     }
+
+}
+
+@media(max-width: 768px){
+    body{
+        padding-inline: 1rem;
     }
 }
