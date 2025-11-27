@@ -55,7 +55,6 @@ header{
 
 main{
     background-color: var(--background-principal);
-    min-height: calc(100svh - 11.8rem);
     padding-block: 12rem 4rem;
     width: 100%;
 }
