@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <title>Login</title>
 </head>
 <body>
-    
+    <header class="login-h">
+        <H1>Seja Bem-vindo</H1>
+    </header>
+    <main class="login-conteiner">
+        <form action="">
+            <fieldset>
+                 <div>
+                     <label for="nome">Nome copleto:</label>
+                     <input type="text" id="nome" placeholder="Digite o seu nome..." required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Digite o seu e-mail..." required>
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha..." required maxlength="10" minlength="6">
+                    <input type="password" id="senha" placeholder="Repita sua senha..." required maxlength="10" minlength="6">
+                </div>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
